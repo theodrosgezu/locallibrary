@@ -16,4 +16,8 @@
 	<li><strong>Books_word:</strong> {{ num_books_word }}</li>
 	<li><strong>Genre_word:</strong> {{ num_genres_word }}</li>
   </ul>
+  
+  <p>
+	you have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+  </p>
 {% endblock %}
